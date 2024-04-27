@@ -8,3 +8,11 @@
 // 2. Inside the second Div, before the unordered list add a paragraph tag showing "Total fruits: 4".
 
 // 3. On this paragraph tag set an id of "fruits-total".
+const subhead = document.createElement("h3");
+const subheadtxt = document.createTextNode(
+  "Buy high quality organic fruits online"
+);
+subhead.appendChild(subheadtxt);
+subhead.style.fontStyle("italic");
+const head = document.querySelector("#header");
+head.appendChild(subhead);
